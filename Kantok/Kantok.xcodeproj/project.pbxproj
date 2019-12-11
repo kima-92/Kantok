@@ -12,6 +12,11 @@
 		FA7373EE23A14DB80066162B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7373EC23A14DB80066162B /* Main.storyboard */; };
 		FA7373F023A14DB90066162B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7373EF23A14DB90066162B /* Assets.xcassets */; };
 		FA7373F323A14DB90066162B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7373F123A14DB90066162B /* LaunchScreen.storyboard */; };
+		FA73740223A14E730066162B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73740123A14E730066162B /* CameraViewController.swift */; };
+		FA73740423A165F30066162B /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73740323A165F30066162B /* CIImageExtension.swift */; };
+		FA73740623A16C560066162B /* VisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73740523A16C560066162B /* VisionService.swift */; };
+		FA73740823A170770066162B /* CGImagePropertyOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73740723A170770066162B /* CGImagePropertyOrientationExtension.swift */; };
+		FA73740A23A1720E0066162B /* DetectingTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73740923A1720E0066162B /* DetectingTextBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FA7373EF23A14DB90066162B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7373F223A14DB90066162B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7373F423A14DB90066162B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA73740123A14E730066162B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FA73740323A165F30066162B /* CIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageExtension.swift; sourceTree = "<group>"; };
+		FA73740523A16C560066162B /* VisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionService.swift; sourceTree = "<group>"; };
+		FA73740723A170770066162B /* CGImagePropertyOrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientationExtension.swift; sourceTree = "<group>"; };
+		FA73740923A1720E0066162B /* DetectingTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingTextBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,10 @@
 		FA7373FA23A14DC40066162B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FA73740323A165F30066162B /* CIImageExtension.swift */,
+				FA73740523A16C560066162B /* VisionService.swift */,
+				FA73740723A170770066162B /* CGImagePropertyOrientationExtension.swift */,
+				FA73740923A1720E0066162B /* DetectingTextBox.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -100,6 +114,7 @@
 		FA7373FE23A14DEA0066162B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA73740123A14E730066162B /* CameraViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -191,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA73740A23A1720E0066162B /* DetectingTextBox.swift in Sources */,
 				FA7373E723A14DB80066162B /* AppDelegate.swift in Sources */,
+				FA73740423A165F30066162B /* CIImageExtension.swift in Sources */,
 				FA7373E923A14DB80066162B /* SceneDelegate.swift in Sources */,
+				FA73740223A14E730066162B /* CameraViewController.swift in Sources */,
+				FA73740623A16C560066162B /* VisionService.swift in Sources */,
+				FA73740823A170770066162B /* CGImagePropertyOrientationExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
